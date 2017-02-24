@@ -1,9 +1,12 @@
 ---
 layout: post
-title:  Three.js Intro
+title:  WebGL No.1 - Three.js 入门
 categories: threejs
 ---
+# 课程地址
 
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `bundle exec jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+* [WebGL No.1 - Three.js 入门](http://ife.baidu.com/course/detail/id/18)
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+# 学习资料
+
+* [图灵社区-Three.js入门指南](http://www.ituring.com.cn/book/1272)

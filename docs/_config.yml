@@ -2,6 +2,8 @@ title: yubolun's 2017 Baidu IFE
 url: https://ife.yubolun.com
 enforce_ssl: ife.yubolun.com
 
+show_downloads: true
+
 theme: jekyll-theme-leap-day
 
 gems:

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  WebGL No.1 - Three.js 入门
-categories: threejs
+categories: visualization
 ---
 
 ## Lesson

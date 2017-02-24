@@ -6,3 +6,6 @@ theme: jekyll-theme-leap-day
 gems:
   - jekyll-sitemap
   - jekyll-paginate
+
+exclude:
+- README.md

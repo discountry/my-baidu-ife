@@ -4,15 +4,14 @@ layout: default
 
 {{ content }}
 
-<ul>
-  {% for category in site.categories %}
-    {% capture category_name %}{{ category | first }}{% endcapture %}
-  <li><a name="{{ category | first }}"><h4>{{ category | first }}</h4></a>
+
+{% for category in site.categories %}
+  {% capture category_name %}{{ category | first }}{% endcapture %}
+  <h2><a href="{{ category | first }}">{{ category | first }}</a></h2>
       <ul>
       {% for post in site.categories[category_name] %}
           <li><a href="{{ post.url }}">{{ post.title }}</a></li>
       {% endfor %}
       </ul>
-    </li>
-  {% endfor %}
-</ul>
+{% endfor %}
+

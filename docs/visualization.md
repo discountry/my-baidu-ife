@@ -3,4 +3,4 @@ layout: category
 category: visualization
 ---
 
-在 WebGL 方向的教学过程中，你将了解到 WebGL 的一些基本原理，并且基于 Three.js 动手实现三维渲染的世界。 我们将以《Three.js 入门指南》作为主要参考教程，在此基础之上，也会补充其他的学习资料，指导大家从零基础掌握前端 3D 渲染相关知识。
+ECharts是现在国内最受欢迎的开源前端数据可视化产品，在GitHub上有16k的star，同时团队在WebGL上也有四年的技术积累，产出了像基础图形库 qtek，世界杯彩蛋，ECharts-X，百度大屏等产品。在这里大家可以学到如何基于ECharts将手上的数据制作成美观的可视化作品，以及如何使用WebVR制作VR展现。

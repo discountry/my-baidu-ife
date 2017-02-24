@@ -21,7 +21,8 @@ categories: threejs
 
 ## Task
 
-* [ThreeJS-Car](http://codepen.io/discountry/pen/aJbejg?editors=0010)
+* [ThreeJS-Car preview](http://codepen.io/discountry/pen/aJbejg?editors=0010)
+* [ThreeJS-Car source code](https://github.com/discountry/my-baidu-ife/blob/master/codes/Misc/threejs-car.html)
 
 **html**
 

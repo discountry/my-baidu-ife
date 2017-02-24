@@ -24,10 +24,10 @@
       <div id="banner">
         <span id="logo"></span>
         <ul class="nav">
-          <li><a href="/" class="button"><strong>Home</strong></a></li>
           {% for category in site.categories %}
             <li><a href="{{ category | first }}" class="button">{{ category | first }}</a></li>
           {% endfor %}
+          <li><a href="/" class="button"><strong>Home</strong></a></li>
         <ul>
         <a href="{{ site.github.repository_url }}" class="button fork"><strong>View On GitHub</strong></a>
         {% if site.show_downloads %}

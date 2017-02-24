@@ -3,6 +3,7 @@ url: https://ife.yubolun.com
 enforce_ssl: ife.yubolun.com
 
 show_downloads: true
+google_analytics: UA-45453476-5
 
 theme: jekyll-theme-leap-day
 

@@ -1,5 +1,5 @@
 ---
-layouts: pages
+layouts: page
 ---
 
 # Discountry & IFE

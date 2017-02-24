@@ -25,7 +25,7 @@
         <span id="logo"></span>
         <ul class="nav">
           {% for category in site.categories %}
-            <li><a href="{{ site.baseurl }}{{ category | first }}" class="button">{{ category | first }}</a></li>
+            <li><a href="/{{ category | first }}" class="button">{{ category | first }}</a></li>
           {% endfor %}
           <li><a href="/" class="button"><strong>Home</strong></a></li>
         <ul>

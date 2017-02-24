@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 自定义checkbox， radio样式
-category: tricks
+category: Misc
 ---
 
 ## 任务目的

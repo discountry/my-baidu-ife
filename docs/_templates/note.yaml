@@ -1,0 +1,18 @@
+# baidu ife note template.
+---
+layout: post
+title: $1
+category: $2
+---
+
+## Lesson
+
+* [$3]()
+
+## References
+
+* []()
+
+## Demo
+
+* []()

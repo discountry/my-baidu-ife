@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ThreeJS Car Demo</title>
+    <meta charset="utf-8">
+    <meta name="description" content="Baidu IFE ThreeJS task demo">
+    <meta name="author" content="yubolun">
+    <script type="text/javascript" src="https://threejs.org/build/three.js"></script>
+    <script type="text/javascript">
+    function init() {
+        var renderer = new THREE.WebGLRenderer({
+            canvas: document.getElementById('mainCanvas')
+        });
+
+        renderer.setClearColor(0x000000);
+
+        var scene = new THREE.Scene();
+
+        //THREE.OrthographicCamera(left, right, top, bottom, near, far)
+        var camera = new THREE.OrthographicCamera(-10, 30, 20, -10, 0.1, 100);
+        camera.position.set(25, 25, 35);
+        camera.lookAt(new THREE.Vector3(0, 0, 0));
+        scene.add(camera);
+
+        var light = new THREE.PointLight(0xffffff, 2, 100);
+        light.position.set(15, 25, 25);
+        scene.add(light);
+
+        //THREE.TorusGeometry(radius, tube, radialSegments, tubularSegments, arc)
+        var torus = new THREE.Mesh(new THREE.TorusGeometry(2, 1, 12, 18),
+            new THREE.MeshLambertMaterial({
+                color: 0xffffff
+            }));
+        scene.add(torus);
+
+        var torus2 = new THREE.Mesh(new THREE.TorusGeometry(2, 1, 12, 18),
+            new THREE.MeshLambertMaterial({
+                color: 0xffffff
+            }));
+        //Move geometry to other coordinates.
+        torus2.position.set(10, 0, 0)
+        scene.add(torus2);
+
+        //THREE.CubeGeometry(width, height, depth, widthSegments, heightSegments, depthSegments)
+        var box = new THREE.Mesh(new THREE.BoxGeometry(18, 10, 10), new THREE.MeshLambertMaterial({
+            color: 0xffffff
+        }));
+        box.position.set(5, 5, -5)
+        scene.add(box);
+
+        renderer.render(scene, camera);
+    }
+    </script>
+</head>
+
+<body onload="init()">
+    <canvas id="mainCanvas" width="800px" height="600px"></canvas>
+</body>
+</html>

@@ -1,2 +1,3 @@
 # my-baidu-ife
-Baidu IFE 2017 notes &amp; codes.
+
+2017 Baidu IFE notes &amp; codes.

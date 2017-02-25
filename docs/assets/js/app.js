@@ -32,8 +32,10 @@ $(document).ready(function(){
   $('img').load(sectionHeight);
 
   $('img').each(function(){
-    $(this).wrap("<a class='lightgallery-slide-item' href='" + $(this).prop('src') +"'></a>")
-  })
+    $(this).wrap("<div class='lightgallery-slide-item' data-src='" + $(this).prop('src') +"'></div>")
+  });
+
+  $(".lightGallery").lightGallery({ selector: '.lightgallery-slide-item'});
 });
 
 fixScale = function(doc) {

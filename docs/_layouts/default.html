@@ -7,7 +7,8 @@
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     <link  rel="stylesheet" type="text/css"  href="{{ '/assets/css/lightgallery.min.css' }}">
     <link rel="icon" type="image/x-icon" href="/favicon.ico">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="{{ '/assets/js/jquery-1.9.1.js' }}"></script>
+    <script src="{{ '/assets/js/lightgallery.min.js' }}"></script>
     <script src="{{ '/assets/js/app.js?v=' | append: site.github.build_revision | relative_url }}"></script>
     <!--[if lt IE 9]>
       <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -43,7 +44,6 @@
       </nav>
       <section id="lightgallery">
         {{ content }}
-
       </section>
       <footer>
         {% if site.github.is_project_page %}
@@ -53,12 +53,6 @@
       </footer>
     </div>
     <!--[if !IE]><script>fixScale(document);</script><![endif]-->
-    <script src="{{ '/assets/js/lightgallery.min.js' | relative_url }}"></script>
-    <script type="text/javascript">
-      lightGallery(document.getElementById('lightgallery'),{
-        selector: '.lightgallery-slide-item'
-      });
-    </script>
     {% if site.google_analytics %}
       <script type="text/javascript">
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

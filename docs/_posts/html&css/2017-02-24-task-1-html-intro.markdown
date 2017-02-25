@@ -112,7 +112,7 @@ to left.</bdo></p>
 <p>More information can be found in <cite>[ISO-0000]</cite>.</p>
 
 <p>This is how we declare a Javascript variable:
-  <br\>
+  <br/>
     <code>var i = 0;</code>
 </p>
 

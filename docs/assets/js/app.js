@@ -35,7 +35,7 @@ $(document).ready(function(){
     $(this).wrap("<a class='lightgallery-slide-item' href='" + $(this).prop('src') +"'></a>")
   });
 
-  $(".lightGallery").lightGallery({ selector: '.lightgallery-slide-item'});
+  $("#lightGallery").lightGallery({ selector: '.lightgallery-slide-item'});
 });
 
 fixScale = function(doc) {

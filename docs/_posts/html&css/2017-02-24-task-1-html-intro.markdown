@@ -13,6 +13,10 @@ category: html&css
 * [Web 建站技术中，HTML、HTML5、XHTML、CSS、SQL、JavaScript、PHP、ASP.NET、Web Services 是什么？](https://www.zhihu.com/question/22689579)
 * [MDN HTML 入门](https://developer.mozilla.org/zh-CN/docs/Web/Guide/HTML/Introduction)
 
+## Demo
+
+* [example page](/example)
+
 ## Task
 
 * []()

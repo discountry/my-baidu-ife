@@ -35,7 +35,7 @@ $(document).ready(function(){
     $(this).wrap("<a class='item' href='" + $(this).prop('src') +"'></a>")
   });
 
-  $('#lightGallery').on('click', function() {
+  $('.item').on('click', function() {
     $("#lightGallery").lightGallery({ selector: '.item'});
   });
   

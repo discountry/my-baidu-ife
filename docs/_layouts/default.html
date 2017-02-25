@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <title>{{ site.title | default: site.github.repository_name }} by {{ site.github.owner_name }}</title>
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <link  rel="stylesheet" type="text/css"  href="{{ '/assets/css/lightgallery.min.css' }}">
     <link rel="icon" type="image/x-icon" href="/favicon.ico">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
     <script src="{{ '/assets/js/main.js' | relative_url }}"></script>
@@ -52,7 +53,10 @@
       </footer>
     </div>
     <!--[if !IE]><script>fixScale(document);</script><![endif]-->
-
+    <script src="{{ '/assets/js/lightgallery.min.js' | relative_url }}"></script>
+    <script type="text/javascript">
+      lightGallery(document.getElementById('lightgallery'));
+    </script>
     {% if site.google_analytics %}
       <script type="text/javascript">
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

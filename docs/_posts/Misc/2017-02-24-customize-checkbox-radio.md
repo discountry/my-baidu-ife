@@ -182,7 +182,7 @@ div + p {
 
 p ~ ul {
     /*  Selects every <ul> element that are preceded by a <p> element
-     *  CSS3中 选择前面跟着div的p
+     *  CSS3中 选择前面跟着p的ul
     */
 }
 ```

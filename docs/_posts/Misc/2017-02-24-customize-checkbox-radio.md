@@ -14,12 +14,13 @@ category: Misc
 * [MDN label](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/label)
 * [MDN ::after](https://developer.mozilla.org/en-US/docs/Web/CSS/::after)
 * [MDN ::before](https://developer.mozilla.org/en-US/docs/Web/CSS/::before)
+* [CSS Selector Reference](https://www.w3schools.com/cssref/css_selectors.asp)
 
 ## Task
 
 * [Customized checkbox&radio preview](http://codepen.io/discountry/pen/RpNgmz?editors=1100)
 * [Customized checkbox&radio source code](https://github.com/discountry/my-baidu-ife/blob/master/codes/Misc/customized-checkbox&radio.html)
-* [CSS Selector Reference](https://www.w3schools.com/cssref/css_selectors.asp)
+
 
 **html**
 

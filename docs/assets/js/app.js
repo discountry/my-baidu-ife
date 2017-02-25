@@ -32,7 +32,7 @@ $(document).ready(function(){
   $('img').load(sectionHeight);
 
   $('img').each(function(){
-    $(this).wrap("<div class='lightgallery-slide-item' data-src='" + $(this).prop('src') +"'></div>")
+    $(this).wrap("<a class='lightgallery-slide-item' href='" + $(this).prop('src') +"'></a>")
   });
 
   $(".lightGallery").lightGallery({ selector: '.lightgallery-slide-item'});

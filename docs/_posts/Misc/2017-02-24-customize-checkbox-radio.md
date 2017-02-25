@@ -31,7 +31,7 @@ category: Misc
         <div class="row1">
             <input type="checkbox" id="checkbox" />
             <label for="checkbox"></label>
-            <input type="radio" id="radio" />
+            <input name="radio" type="radio" id="radio" />
             <label for="radio"></label>
         </div>
         <h2>:before :after</h2>
@@ -41,7 +41,7 @@ category: Misc
                 <label for="checkbox2"></label>
             </div>
             <div class="box">
-                <input type="radio" id="radio2" />
+                <input name="radio" type="radio" id="radio2" />
                 <label for="radio2"></label>
             </div>
         </div>

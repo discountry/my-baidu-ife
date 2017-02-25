@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Customized checkbox&radio style</title>
+    <meta charset="utf-8">
+    <meta name="description" content="Baidu IFE Customized checkbox&radio style task demo">
+    <meta name="author" content="yubolun">
+    <style type="text/css">
+    .row1 input[type='checkbox'] {
+        display: none;
+    }
+    
+    .row1 input[type='checkbox'] + label {
+        background: url("http://p1.bqimg.com/567571/99322cf8c3283e42.png") no-repeat;
+        background-position: -24px -32px;
+        height: 16px;
+        width: 16px;
+        display: inline-block;
+        cursor: pointer;
+    }
+    
+    .row1 input[type='checkbox']:checked + label {
+        background-position: -59px -32px;
+    }
+    
+    .row1 input[type='radio'] {
+        display: none;
+    }
+    
+    .row1 input[type='radio'] + label {
+        background: url("http://p1.bqimg.com/567571/99322cf8c3283e42.png") no-repeat;
+        background-position: -24px -10px;
+        height: 16px;
+        width: 16px;
+        display: inline-block;
+        cursor: pointer;
+    }
+    
+    .row1 input[type='radio']:checked + label {
+        background-position: -59px -10px;
+    }
+    
+    .row2 .box {
+        position: relative;
+        display: inline-block;
+        min-height: 17px;
+        font-size: 1rem;
+        line-height: 17px;
+        min-width: 17px;
+    }
+    
+    .row2 input {
+        cursor: pointer;
+        position: absolute;
+        top: 0;
+        left: 0;
+        opacity: 0 !important;
+        z-index: 3;
+        width: 16px;
+        height: 16px;
+    }
+    
+    .row2 label:before {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 16px;
+        height: 16px;
+        content: '';
+        border: 1px solid #9e9e9e;
+    }
+    
+    .row2 input[type=radio] ~ label:before {
+        border-radius: 500rem;
+    }
+    
+    .row2 input[type=radio]:checked ~ label:after {
+        content: '●';
+        font-size: 16px;
+        line-height: 15px;
+        width: 18px;
+    }
+    
+    .row2 input[type=checkbox]:checked ~ label:after {
+        content: '\2714';
+    }
+    
+    .row2 input:checked ~ label:after {
+        position: absolute;
+        font-size: 14px;
+        top: 0;
+        left: 0;
+        width: 17px;
+        height: 17px;
+        text-align: center;
+        color: #d73d32;
+    }
+    
+    .row2 input:checked ~ label:before {
+        border-color: #d73d32;
+    }
+    
+    .container {
+        height: 20rem;
+    }
+    
+    .row1,
+    .row2 {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+    
+    label {
+        margin: 1rem;
+    }
+    
+    h1,
+    h2 {
+        text-align: center;
+        width: 100%;
+    }
+    </style>
+</head>
+
+<body>
+    <h1>Customized inputs</h1>
+    <div class="container">
+        <h2>Background-image</h2>
+        <div class="row1">
+            <input type="checkbox" id="checkbox" />
+            <label for="checkbox"></label>
+            <input type="radio" id="radio" />
+            <label for="radio"></label>
+        </div>
+        <h2>:before :after</h2>
+        <div class="row2">
+            <div class="box">
+                <input type="checkbox" id="checkbox2" />
+                <label for="checkbox2"></label>
+            </div>
+            <div class="box">
+                <input type="radio" id="radio2" />
+                <label for="radio2"></label>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

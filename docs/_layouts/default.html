@@ -55,7 +55,9 @@
     <!--[if !IE]><script>fixScale(document);</script><![endif]-->
     <script src="{{ '/assets/js/lightgallery.min.js' | relative_url }}"></script>
     <script type="text/javascript">
-      lightGallery(document.getElementById('lightgallery'));
+      $("#lightgallery").lightGallery({
+            selector: '.lightgallery-slide-item'
+        });
     </script>
     {% if site.google_analytics %}
       <script type="text/javascript">

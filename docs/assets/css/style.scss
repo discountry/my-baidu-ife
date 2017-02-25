@@ -3,6 +3,8 @@
 
 @import "{{ site.theme }}";
 
-section {
-  width: 645px;
+@media only screen and (min-width: 1280px) {
+  section {
+    width: 645px;
+  }
 }

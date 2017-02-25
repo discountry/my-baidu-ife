@@ -35,6 +35,8 @@ $(document).ready(function() {
     $(this).wrap("<a class='item' href='" + $(this).prop('src') + "'></a>")
   });
 
+  $('section a').attr('target', '_blank');
+
 });
 
 $(document).ready(function() {

@@ -50,7 +50,7 @@ main {
 }
 
 main div {
-  background: #eee;
+  background: #ccc;
   color: white;
   width: 400px;
   height: 200px;

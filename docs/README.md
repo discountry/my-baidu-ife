@@ -19,7 +19,7 @@ This is my baidu IFE task notes & codes site.
 
 ## Usage
 
-1.Edit [_config.yml](/docs/_config.yml)
+1.Edit [_config.yml](_config.yml)
 
 ```yaml
 title: Your site title
@@ -28,7 +28,7 @@ url: Your domain url
 google_analytics: Your google analytics UA
 ```
 
-2.Edit [CNAME](/docs/CNAME)
+2.Edit [CNAME](CNAME)
 
 Change it to your domain and create an CNAME record to your github domain.
 

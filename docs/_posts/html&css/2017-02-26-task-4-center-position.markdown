@@ -17,7 +17,7 @@ category: html&css
 ## Task
 
 * [Center position preview](http://codepen.io/discountry/pen/wJBOJb?editors=1100)
-* [Center position source code](https://github.com/discountry/my-baidu-ife/blob/master/codes/html&css/3-three-columns.html)
+* [Center position source code](https://github.com/discountry/my-baidu-ife/blob/master/codes/html&css/4-center-position.html)
 
 **html**
 

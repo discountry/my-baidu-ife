@@ -30,7 +30,7 @@ google_analytics: Your google analytics UA
 
 2.Edit [CNAME](CNAME)
 
-Change it to your domain and create an CNAME record to your github domain.
+Change it to your domain and create a CNAME record to your github domain.
 
 ## Dependencies
 
